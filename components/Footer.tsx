@@ -16,6 +16,7 @@ export default function Footer() {
                             <div className="relative w-10 h-10">
                                 <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B6B] to-[#FFD93D] rounded-full blur-sm"></div>
                                 <Image
+                                    priority
                                     src="/stressedguy.png"
                                     alt="Logo"
                                     width={40}

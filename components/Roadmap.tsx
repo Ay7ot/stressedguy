@@ -10,6 +10,7 @@ export default function Roadmap() {
             {/* Floating images */}
             <div className="absolute right-0 top-20 opacity-20 animate-float">
                 <Image
+                    priority
                     src="/stressedguy.png"
                     alt="Decorative"
                     width={150}
@@ -20,6 +21,7 @@ export default function Roadmap() {
             </div>
             <div className="absolute left-0 bottom-20 opacity-20 animate-float delay-200">
                 <Image
+                    priority
                     src="/s"
                     alt="Decorative"
                     width={100}
@@ -34,6 +36,7 @@ export default function Roadmap() {
                     <div className="mb-8 relative w-24 h-24 mx-auto">
                         <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B6B] to-[#FFD93D] rounded-full blur-xl opacity-50 animate-pulse"></div>
                         <Image
+                            priority
                             src="/stressedguy.png"
                             alt="Roadmap Icon"
                             width={96}
@@ -56,6 +59,7 @@ export default function Roadmap() {
                         <div className="mb-6 relative w-16 h-16">
                             <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B6B] to-[#FFD93D] rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
                             <Image
+                                priority
                                 src="/stressedguy.png"
                                 alt="Phase 1"
                                 width={64}
@@ -78,6 +82,7 @@ export default function Roadmap() {
                         <div className="mb-6 relative w-16 h-16">
                             <div className="absolute inset-0 bg-gradient-to-r from-[#FFD93D] to-[#6BCB77] rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
                             <Image
+                                priority
                                 src="/stressedguy.png"
                                 alt="Phase 2"
                                 width={64}
@@ -100,6 +105,7 @@ export default function Roadmap() {
                         <div className="mb-6 relative w-16 h-16">
                             <div className="absolute inset-0 bg-gradient-to-r from-[#6BCB77] to-[#FF6B6B] rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
                             <Image
+                                priority
                                 src="/stressedguy.png"
                                 alt="Phase 3"
                                 width={64}

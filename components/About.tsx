@@ -13,6 +13,7 @@ export default function About() {
                         <div className="relative w-64 h-64 mx-auto">
                             <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B6B] to-[#FFD93D] rounded-full blur-xl opacity-50 animate-pulse"></div>
                             <Image
+                                priority
                                 src="/stressedguy.png"
                                 alt="About Stressed Guy"
                                 width={256}

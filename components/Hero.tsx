@@ -15,6 +15,7 @@ export default function Hero() {
         <div className="animate-float mb-8 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B6B] to-[#FFD93D] rounded-full blur-2xl opacity-50 animate-pulse"></div>
           <Image
+            priority
             src="/stressedguy.png"
             alt="Stressed Guy"
             width={300}
