@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff6b6b;
+  --secondary: #ffd93d;
+  --accent: #6bcb77;
+  --background: #1a1a2e;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  background: linear-gradient(
+    135deg,
+    var(--background) 0%,
+    #16213e 50%,
+    #0f3460 100%
+  );
+  min-height: 100vh;
+  font-family: var(--font-geist-sans);
+}
+
+.gradient-text {
+  background: linear-gradient(
+    45deg,
+    var(--primary),
+    var(--secondary),
+    var(--accent)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glow {
+  filter: drop-shadow(0 0 0.75rem var(--primary));
+}
+
+html {
+  scroll-behavior: smooth;
+}
