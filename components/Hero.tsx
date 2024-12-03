@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-24 bg-[#1A1A2E] overflow-hidden">
+    <div className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-24 pb-6 bg-[#1A1A2E] overflow-hidden">
       {/* Animated gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#FF6B6B]/20 via-[#FFD93D]/20 to-[#6BCB77]/20 animate-gradient-xy"></div>
 
