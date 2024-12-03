@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Stressed Guy",
   description: "The ultimate meme token that turns market stress into success. Join the $STRESSEDGUY community and embrace the chaos of crypto trading with a smile.",
   icons: {
-    icon: '/favicon.png',
+    icon: '/stressedguy.png',
   },
 };
 
