@@ -21,7 +21,7 @@ export default function Footer() {
                                     width={40}
                                     height={40}
                                     className="rounded-full relative"
-                                    unoptimized
+                                    mized
                                 />
                             </div>
                             <span className="text-xl font-bold bg-gradient-to-r from-[#FF6B6B] via-[#FFD93D] to-[#6BCB77] bg-clip-text text-transparent">

@@ -15,7 +15,7 @@ export default function Roadmap() {
                     width={150}
                     height={150}
                     className="rounded-full blur-sm"
-                    unoptimized
+                    mized
                 />
             </div>
             <div className="absolute left-0 bottom-20 opacity-20 animate-float delay-200">
@@ -25,7 +25,7 @@ export default function Roadmap() {
                     width={100}
                     height={100}
                     className="rounded-full blur-sm"
-                    unoptimized
+                    mized
                 />
             </div>
 
@@ -39,7 +39,7 @@ export default function Roadmap() {
                             width={96}
                             height={96}
                             className="rounded-full relative z-10"
-                            unoptimized
+                            mized
                         />
                     </div>
                     <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#FF6B6B] via-[#FFD93D] to-[#6BCB77] bg-clip-text text-transparent">
@@ -61,7 +61,7 @@ export default function Roadmap() {
                                 width={64}
                                 height={64}
                                 className="rounded-full relative z-10"
-                                unoptimized
+                                mized
                             />
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#FF6B6B] transition-colors">Phase 1: Launch</h3>
@@ -83,7 +83,7 @@ export default function Roadmap() {
                                 width={64}
                                 height={64}
                                 className="rounded-full relative z-10"
-                                unoptimized
+                                mized
                             />
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#FFD93D] transition-colors">Phase 2: Growth</h3>
@@ -105,7 +105,7 @@ export default function Roadmap() {
                                 width={64}
                                 height={64}
                                 className="rounded-full relative z-10"
-                                unoptimized
+                                mized
                             />
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#6BCB77] transition-colors">Phase 3: Expansion</h3>

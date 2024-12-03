@@ -18,7 +18,6 @@ export default function About() {
                                 width={256}
                                 height={256}
                                 className="rounded-full relative z-10"
-                                unoptimized
                             />
                         </div>
                     </div>

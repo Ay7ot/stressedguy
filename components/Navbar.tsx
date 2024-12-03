@@ -42,7 +42,7 @@ export default function Navbar() {
                                             width={40}
                                             height={40}
                                             className="rounded-full relative"
-                                            unoptimized
+                                            mized
                                         />
                                     </div>
                                     <span className="text-xl font-bold bg-gradient-to-r from-[#FF6B6B] via-[#FFD93D] to-[#6BCB77] bg-clip-text text-transparent">
@@ -121,22 +121,22 @@ export default function Navbar() {
                         }`}
                 >
                     <div className="backdrop-blur-lg bg-black/50 border border-white/20 rounded-2xl shadow-lg p-4 space-y-3">
-                        <Link 
-                            href="#about" 
+                        <Link
+                            href="#about"
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl"
                         >
                             About
                         </Link>
-                        <Link 
-                            href="#how-to-buy" 
+                        <Link
+                            href="#how-to-buy"
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl"
                         >
                             How to Buy
                         </Link>
-                        <Link 
-                            href="#roadmap" 
+                        <Link
+                            href="#roadmap"
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl"
                         >
