@@ -30,10 +30,10 @@ export default function About() {
                         </h2>
                         <div className="space-y-4 text-gray-400">
                             <p>
-                                Born from the chaos of crypto markets, $STRESSEDGUY represents every trader's journey through the ups and downs of digital assets.
+                                Born from the chaos of crypto markets, $STRESSEDGUY represents every trader&apos;s journey through the ups and downs of digital assets.
                             </p>
                             <p>
-                                We're not just another meme token - we're a community-driven movement that turns market stress into success through humor and innovation.
+                                We&apos;re not just another meme token - we&apos;re a community-driven movement that turns market stress into success through humor and innovation.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 hover:bg-white/10 transition-colors">
