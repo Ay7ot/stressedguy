@@ -121,17 +121,30 @@ export default function Navbar() {
                         }`}
                 >
                     <div className="backdrop-blur-lg bg-black/50 border border-white/20 rounded-2xl shadow-lg p-4 space-y-3">
-                        <Link href="#about" className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl">
+                        <Link 
+                            href="#about" 
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl"
+                        >
                             About
                         </Link>
-                        <Link href="#how-to-buy" className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl">
+                        <Link 
+                            href="#how-to-buy" 
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl"
+                        >
                             How to Buy
                         </Link>
-                        <Link href="#roadmap" className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl">
+                        <Link 
+                            href="#roadmap" 
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl"
+                        >
                             Roadmap
                         </Link>
                         <a
                             href="https://dexscreener.com/solana/yourtokenaddress"
+                            onClick={() => setIsMobileMenuOpen(false)}
                             className="block text-white/80 hover:text-white transition-colors py-2 px-4 hover:bg-white/10 rounded-xl"
                             target="_blank"
                             rel="noopener noreferrer"
